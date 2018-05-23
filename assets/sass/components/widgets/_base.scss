@@ -1,0 +1,67 @@
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+.widget {
+{
+  margin-bottom: 40px;
+  word-wrap: break-word;
+}
+
+  ul > li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  ul > li:last-of-type {
+    padding-bottom: 0;
+  }
+
+  ol > li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+
+  li li {
+    border: 0;
+    margin: 0 0 0 30px;
+    padding: 0;
+  }
+}
+
+.widget p:last-child,
+.widget ul > li:last-of-type,
+.widget-area .widget:last-of-type {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 860px) {
+  .sidebar .widget {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}
+
+.sidebar .widget-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.widget-title {
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.widget_calendar {
+  table {
+    width: 100%;
+  }
+
+  td,
+  th {
+    text-align: center;
+  }
+
+}
+
